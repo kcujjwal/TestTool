@@ -47,7 +47,7 @@ alldata1 = alldata1.replace({'United States':'United States of America'})
 
 print(alldata1.head())
 
-alldata_pivot = alldata1.drop_duplicates(["Country","Year", "Indicator"]).pivot(["Country","Indicator"],columns="Year",values="value").reset_index()
+alldata_pivot = alldata1.drop_duplicates(["Country","Year", "Indicator"]).pivot(index = ["Country","Indicator"],columns="Year",values="value").reset_index()
 # capitalsOnly = pd.read_csv("finalCapital.csv")
 # print("Printing Pivot PD")
 # print(alldata_pivot.head())

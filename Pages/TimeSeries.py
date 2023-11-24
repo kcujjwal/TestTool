@@ -53,7 +53,7 @@ for i in years:
     dataColl[i] = alldata1[alldata1["Year"]==i]
 
 org_data=dataColl[2022]
-alldata_pivot = alldata1.pivot(["Country","Indicator"],columns="Year",values="value").reset_index()
+alldata_pivot = alldata1.pivot(index = ["Country","Indicator"],columns="Year",values="value").reset_index()
 countries = org_data["Country"].unique()
 capitalsOnly = pd.read_csv("finalCapital.csv")
 
