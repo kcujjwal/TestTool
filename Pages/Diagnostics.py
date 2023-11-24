@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import plotly.graph_objects as go
 
+
+st.cache.clear()
 # st.sidebar.title("Control Center")ff
 years = range(2012,2023)
 capitals = ['Food Systems Resilience Score','Natural Capital','Human Capital','Social Capital','Financial Capital','Manufactured Capital']

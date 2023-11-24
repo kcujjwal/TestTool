@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 
+st.cache.clear()
 
 alldata1 = pd.read_csv("allIndicatorData1.csv")
 notCountry = ['World','High income', 'Low income',

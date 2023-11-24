@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import plotly.graph_objects as go
 
+
+st.cache.clear()
 # st.sidebar.title("Control Center")ff
 
 qualities = ["Robustness", "Redundancy", "Resourcefulness","Rapidity"]

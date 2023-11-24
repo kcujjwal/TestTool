@@ -16,6 +16,8 @@ import numpy as np
 #  'Bosnia and Herz.': 'Bosnia and Herzegovina',
 # }
 
+st.cache.clear()
+
 qualities = ["Robustness", "Redundancy", "Resourcefulness","Rapidity"]
 
 capitals = ['Food Systems Resilience Score','Natural Capital','Human Capital','Social Capital','Financial Capital','Manufactured Capital']
