@@ -7,8 +7,6 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 
-
-st.cache.clear()
 qualities = ["Robustness", "Redundancy", "Resourcefulness","Rapidity"]
 
 capitals1 = ['Food Systems Resilience Score','Natural Capital','Human Capital','Social Capital','Financial Capital','Manufactured Capital']

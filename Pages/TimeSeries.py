@@ -10,8 +10,6 @@ import seaborn as sns
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 
-st.cache.clear()
-
 incomeCat=pd.read_csv("IncomeCat.csv")
 
 flags = {

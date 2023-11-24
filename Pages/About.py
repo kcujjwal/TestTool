@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.cache.clear()
+
 
 
 def app():
