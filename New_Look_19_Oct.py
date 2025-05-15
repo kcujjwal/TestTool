@@ -14,7 +14,7 @@ from Pages import About,WorldMap, Diagnostics, TimeSeries, Disaster, Compare, Co
 import copy
 
 from pathlib import Path
-import seaborn as sns
+# import seaborn as sns
 import geopandas
 
 # import plotly.express as px

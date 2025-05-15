@@ -12,7 +12,7 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
-from streamlit import caching
+# from streamlit import caching
 from validators import length
 
 import copy
